@@ -1,0 +1,333 @@
+body {
+  background-color: #1b1a1f;
+  font: normal 1.25em/1.38 'Manrope ExtraBold';
+  color: #514f5c;
+}
+
+.container {
+  float: left;
+  width: 4%;
+  height: 48px;
+  margin: 16px 0 0 15.19922%;
+  background-image: url('../images/sroom32.png');
+  background-repeat: no-repeat;
+  background-size: 48px 48px;
+  background-position: center center;
+}
+
+.element {
+  float: left;
+  width: 0.25%;
+  height: 48px;
+  margin: 16px 0 0 0.4974%;
+  background-color: #2c2a32;
+}
+
+.navbar {
+  float: left;
+  width: 100%;
+  height: 75px;
+  min-height: 75px;
+  background-color: rgb(27, 26, 31);
+}
+
+.text {
+  float: left;
+  margin-left: 15.19922%;
+}
+
+._button {
+  display: block;
+  float: left;
+  height: 33px;
+  margin-top: 25px;
+  border-radius: 3px;
+  background-color: rgba(222, 222, 222, 0);
+  font-family: Helvetica;
+  font-size: 0.8em;
+  font-weight: 400;
+  text-align: center;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
+  -ms-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.text-1 {
+  width: 381px;
+  min-width: 381px;
+  min-height: 27px;
+  margin-top: -271px;
+  font-size: 1em;
+  color: #514f5c;
+}
+
+.text-2 {
+  clear: both;
+  width: 439px;
+  min-width: 439px;
+  min-height: 27px;
+  margin-top: 117px;
+  font-size: 2em;
+  color: #ffffff;
+}
+
+.text-3 {
+  clear: both;
+  width: 381px;
+  min-width: 381px;
+  min-height: 189px;
+  margin-top: 6px;
+  font-size: 1em;
+  color: #514f5c;
+}
+
+.text-4 {
+  clear: both;
+  width: 222px;
+  min-width: 222px;
+  min-height: 27px;
+  margin-top: 1312px;
+  font-size: 1em;
+  color: #514f5c;
+}
+
+.navbar ._button-1 {
+  width: 6.5%;
+  margin-left: 2.05339%;
+  color: #514f5c;
+}
+
+.navbar ._button-2 {
+  width: 8.75%;
+  margin-left: 1.08073%;
+  color: #514f5c;
+}
+
+.navbar ._button-1:hover,
+.navbar ._button-2:hover {
+  color: #ffffff;
+}
+
+.navbar ._button-3 {
+  width: 9.4166666666%;
+  margin-left: 1.41797%;
+  color: #ffffff;
+}
+
+.text em {
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-color: transparent;
+  border-style: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: transparent;
+  font-family: inherit;
+  font-style: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  text-decoration: inherit;
+  letter-spacing: inherit;
+  word-spacing: inherit;
+  color: #cd5050;
+  opacity: 1;
+  word-break: normal;
+  word-wrap: normal;
+  white-space: normal;
+}
+
+.text span {
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-color: transparent;
+  border-style: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: transparent;
+  font-family: inherit;
+  font-style: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  text-decoration: inherit;
+  letter-spacing: inherit;
+  word-spacing: inherit;
+  color: #7185f8;
+  opacity: 1;
+  word-break: normal;
+  word-wrap: normal;
+  white-space: normal;
+}
+
+@media(max-width: 900px) {
+  .navbar .container {
+    width: 48px;
+    margin-top: 13px;
+    margin-left: 10%;
+  }
+
+  .navbar .element {
+    width: 3px;
+    margin-top: 13px;
+    margin-left: 0.66146%;
+  }
+
+  .navbar ._button {
+    margin-top: 22px;
+  }
+
+  .text-1 {
+    margin-top: -274px;
+    margin-left: 20.26563%;
+  }
+
+  .text-2 {
+    margin-top: 41px;
+    margin-left: 10%;
+  }
+
+  .text-3 {
+    margin-top: 0;
+    margin-left: 10%;
+  }
+
+  .text-4 {
+    width: 221px;
+    min-width: 221px;
+    margin-top: 1029px;
+    margin-left: 10%;
+  }
+
+  .navbar ._button-1 {
+    width: 7%;
+    margin-left: 2.07292%;
+  }
+
+  .navbar ._button-2 {
+    width: 11.5555555555%;
+    margin-left: 1.10938%;
+  }
+
+  .navbar ._button-3 {
+    width: 12.5555555555%;
+    margin-left: 1.88889%;
+  }
+}
+
+@media(max-width: 600px) {
+  body {
+    font-size: 1.25em;
+  }
+
+  .navbar .container {
+    margin-top: 16px;
+  }
+
+  .navbar .element {
+    margin-top: 16px;
+    margin-left: 1.48438%;
+  }
+
+  .navbar ._button {
+    margin-top: 25px;
+  }
+
+  .text-1 {
+    margin-top: -420px;
+    margin-left: 30.39844%;
+  }
+
+  .text-2 {
+    width: 245px;
+    min-width: 245px;
+    margin-top: 102px;
+  }
+
+  .text-4 {
+    margin-top: 1124px;
+  }
+
+  .navbar ._button-1 {
+    width: 10.5%;
+    margin-left: 2.01563%;
+  }
+
+  .navbar ._button-2 {
+    width: 17.3333333333%;
+    margin-left: 1.83073%;
+  }
+
+  .navbar ._button-3 {
+    width: 18.6666666666%;
+    margin-left: 2.66667%;
+  }
+}
+
+@media(max-width: 400px) {
+  .navbar .container {
+    margin-top: 11px;
+  }
+
+  .navbar .element {
+    margin-top: 11px;
+    margin-left: 1.49219%;
+  }
+
+  .navbar ._button {
+    position: relative;
+  }
+
+  .text-1 {
+    width: 221px;
+    min-width: 221px;
+    margin-top: -373px;
+    margin-left: 45.59766%;
+  }
+
+  .text-2 {
+    min-width: 221px;
+    margin-top: 72px;
+  }
+
+  .text-3 {
+    width: 221px;
+    min-width: 221px;
+  }
+
+  .text-4 {
+    margin-top: 1625px;
+  }
+
+  .navbar ._button-1 {
+    z-index: 3;
+    width: 16%;
+    margin-top: 0;
+    margin-left: 24.95313%;
+  }
+
+  .navbar ._button-2 {
+    clear: both;
+    z-index: 4;
+    width: 30.25%;
+    margin-top: -28px;
+    margin-left: 26.25%;
+  }
+
+  .navbar ._button-3 {
+    z-index: 5;
+    width: 28%;
+    margin-top: -28px;
+    margin-left: 4.25%;
+  }
+}
